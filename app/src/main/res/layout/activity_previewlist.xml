@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".previewlist">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5">
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/shoesman"/>
+
+        <TextView
+            android:id="@+id/namaBarang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Barang"
+            android:layout_below="@+id/image1"
+            android:layout_marginHorizontal="70dp"/>
+
+        <TextView
+            android:id="@+id/hargaBarang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Barang"
+            android:layout_below="@+id/image1"
+            android:layout_centerHorizontal="true"
+            android:layout_toRightOf="@+id/namaBarang"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5">
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/shoeswoman"/>
+
+        <TextView
+            android:id="@+id/namaBarang2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Barang"
+            android:layout_below="@+id/image2"
+            android:layout_marginHorizontal="70dp"/>
+
+        <TextView
+            android:id="@+id/hargaBarang2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Barang"
+            android:layout_below="@+id/image2"
+            android:layout_centerHorizontal="true"
+            android:layout_toRightOf="@+id/namaBarang2"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

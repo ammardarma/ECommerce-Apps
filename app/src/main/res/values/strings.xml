@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ECommerceApp</string>
+    <string name="logasstf">Login As Staff</string>
+    <string name="enterusername">Enter username</string>
+    <string name="enterpassword">Enter Password</string>
+    <string name="wewishuhappy">We wish you a happy working day</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="judul">Selamat Datang</string>
+    <string name="peringatan">Masukkan Data yang terdaftar</string>
+    <string-array name="jenisbrg">
+        <item>Kaos</item>
+        <item>Kemeja</item>
+    </string-array>
+    <string name="staff_login">Staff Login</string>
+</resources>

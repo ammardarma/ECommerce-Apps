@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+android:background="@drawable/bg"
+    android:layout_gravity="center"
+    tools:context=".LoginActivity">
+
+    <Button
+        android:id="@+id/tvCreateAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_marginBottom="10dp"
+        android:background="#D3433F40"
+        android:text="New User? Register Here"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:textAllCaps="false"
+        android:text="Already Member? Login Here"
+        android:layout_marginBottom="10dp"
+        android:background="#8F042B"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+    <TextView
+        android:id="@+id/Admin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.33"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:text="Admin Login"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        />
+
+    <TextView
+        android:id="@+id/Staff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.33"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:text="@string/staff_login"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/About"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+           android:gravity="center"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:text="About"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent" />
+
+    </LinearLayout>
+</LinearLayout>
